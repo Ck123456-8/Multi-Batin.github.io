@@ -1,0 +1,223 @@
+/* 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 24, 24);
+    background-image: url('C:/Aniversario/Fotos/conozcanosFondo.jpg');
+    background-size: cover;  La imagen de fondo cubrirá todo el contenido 
+    background-position: center;  Centra la imagen de fondo 
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(26, 24, 24);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    opacity: 20%;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+*/
+
+
+/*.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 1, auto;
+}*/
+
+nav ul {
+    list-style: none;
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+nav li {
+    display: inline-block; /* Hace que los elementos de la lista sean bloques en línea */
+    margin-right: 20px; /* Añade espacio entre los elementos */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 13, 13);
+    background-image: url('C:/Aniversario/Fotos/conozcanosFondo.jpg');
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    background-color: rgba(16, 16, 16, 0.664);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+   
+}
+
+h4 {
+    color: white;
+    text-align: center;
+
+}
+h2{
+    color: white;
+    text-align: center;
+}
+
+.centrado {
+    padding-top: 2%; /* Ajusta este valor según sea necesario */
+    color: white;
+    text-align: center;
+  
+}
+.centrar{
+    max-width: 600px; /* Ancho máximo */
+    margin: 20px auto; /* Margen automático para centrar horizontalmente */
+    padding: 20px; /* Relleno para el contenido */
+  
+}
+.centrado{/*centar los links de la barra de navegación*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    margin-bottom: 50%;
+   
+
+}
+p{
+   
+    color: white; /* Ajuste añadido: Color de texto blanco */
+    font-size: 20px; /* Tamaño de fuente */
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+nav {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 23px; /* Espacio moderado arriba */
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    /* Hace que el enlace sea un bloque en línea */
+    margin-top: 5px; /* Espacio moderado arriba */
+    background-color:rgba(180, 6, 6, 0.651); ;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(150px,1fr)
+        
+    );
+    gap: 16px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #ee2929;
+}
+
+
+footer {
+    color: white;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 2px 0;
+    background-color: rgba(26, 24, 24, 0.8);
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    justify-content: left;
+    /* Centra horizontalmente el contenido */
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(150px,1fr)
+        
+    );
+    gap: 16px;
+  
+}
+nav#volver {
+    text-align: center; /* Centra horizontalmente el contenido */
+    margin-bottom: 5%; /* Ajusta la distancia moderada entre el nav y el footer */
+    margin-top: 20%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*IMAGENES DE GALERIA*/
+/*.left{
+    position: absolute;
+    top: 118%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+}
+
+.center{
+    position: absolute;
+    top: 103%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+}
+
+.rigth{
+    position: absolute;
+    top: 120%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;  
+}*/

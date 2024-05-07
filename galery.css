@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;   
+    background-color: black;
+    
+}
+
+header {
+    background-color: rgba(191, 16, 16, 0.596);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+h2 {
+    color: white;
+    text-align: center;
+   text-decoration: overline;
+
+}
+
+
+.final {
+    color: white;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 2px 0;
+    background-color: rgba(205, 22, 22, 0.584);
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    justify-content: left;
+    /* Centra horizontalmente el contenido */
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(150px,1fr)
+        
+    );
+    gap: 16px;
+  
+}
+nav {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 23px; /* Espacio moderado arriba */
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    /* Hace que el enlace sea un bloque en línea */
+    margin-top: 5px; /* Espacio moderado arriba */
+    background-color:rgba(180, 6, 6, 0.651); ;
+    
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #ee2929;
+}
+
+
+nav#volver {
+    text-align: center; /* Centra horizontalmente el contenido */
+    margin-bottom: 5%; /* Ajusta la distancia moderada entre el nav y el footer */
+  margin-top: 2%;
+}
+
+
+p{
+   
+    color: white; /* Ajuste añadido: Color de texto blanco */
+    font-size: 20px; /* Tamaño de fuente */
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+}
+.imgs {
+    margin: 10px;
+}
+.img1 {
+    width: 400px; /* Tamaño inicial */
+    cursor: pointer;
+    margin: 10px auto;
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+.img1:hover {
+    transform: scale(1.5); /* Hace que la imagen crezca al hacer hover */
+}
+nav#volver {
+    text-align: center; /* Centra horizontalmente el contenido */
+    margin-bottom: 5%; /* Ajusta la distancia moderada entre el nav y el footer */
+  margin-top: 2%;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.imgs-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-item-right {
+    width: 400px;
+    max-height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-item-right:hover {
+    transform: scale(1.5);
+}

@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 13, 13);
+    background-image: url('C:/Aniversario/Fotos/fondoEduc.jpg');
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+nav li {
+    display: inline-block; /* Hace que los elementos de la lista sean bloques en línea */
+    margin-right: 20px; /* Añade espacio entre los elementos */
+}
+
+
+header {
+    background-color: rgba(16, 16, 16, 0.664);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(168, 14, 14);
+    text-align: center;
+    text-decoration: overline white;
+}
+
+#centrado {
+    color: white;
+    text-align: center;
+   
+}
+
+#centrado{/*centar los links de la barra de navegación*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 50%;
+    margin: 0 auto;
+    border: 5px solid #ffffffd6;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.584);
+    backdrop-filter: blur(5px);
+   
+}
+
+p{ 
+    color: white; /* Ajuste añadido: Color de texto blanco */
+    font-size: 20px; /* Tamaño de fuente */
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+
+nav {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 23px; /* Espacio moderado arriba */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    /* Hace que el enlace sea un bloque en línea */
+    margin-top: 5px; /* Espacio moderado arriba */
+    background-color:rgba(180, 6, 6, 0.651); ;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(150px,1fr)
+        
+    );
+    gap: 16px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #ee2929;
+}
+
+
+footer {
+        color: white;
+        text-align: left;
+        width: 100%;
+        padding: 2px 0;
+        background-color: rgba(26, 24, 24, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: 14px;
+        position: fixed; /* Fija el footer en la parte inferior de la ventana */
+        bottom: 0; /* Coloca el footer en la parte inferior */
+        left: 0;
+        right: 0;
+    
+    /*responsive*/
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(150px,1fr) 
+    );
+    gap: 16px;
+  
+}
+nav#volver {
+    text-align: center; /* Centra horizontalmente el contenido */
+    margin-bottom: 5%; /* Ajusta la distancia moderada entre el nav y el footer */
+    margin-top: 1%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye las columnas uniformemente */
+}
+
+.imagen-column {
+    flex: 0 0 25%; /* Ancho de cada columna */
+    margin-bottom: 10px; /* Espacio entre las filas */
+}
+
+.imagen-circular img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen dentro del contenedor circular */
+}
+
+.imagen-circular {
+    width: 300px; /* Ajusta el ancho del contenedor */
+    height: 300px; /* Ajusta el alto del contenedor */
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 1, auto;
+}
+
+.infraestructura{
+
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 1, auto;
+}
+
+.espaciado{
+
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px, auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 1,1fr;
+}
